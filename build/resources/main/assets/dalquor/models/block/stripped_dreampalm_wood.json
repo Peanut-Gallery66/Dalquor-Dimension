@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "dalquor:block/stripped_dreampalm_log"
+    }
+}

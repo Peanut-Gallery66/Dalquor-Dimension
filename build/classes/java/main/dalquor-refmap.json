@@ -1,0 +1,26 @@
+{
+  "mappings": {
+    "net/peanutgallery/dalquor/mixin/ExampleMixin": {
+      "loadWorld": "Lnet/minecraft/server/MinecraftServer;method_3735()V"
+    },
+    "net/peanutgallery/dalquor/mixin/FoliagePlacerTypeInvoker": {
+      "register": "method_28850(Ljava/lang/String;Lcom/mojang/serialization/Codec;)Lnet/minecraft/class_4648;"
+    },
+    "net/peanutgallery/dalquor/mixin/TrunkPlacerTypeInvoker": {
+      "register": "method_26995(Ljava/lang/String;Lcom/mojang/serialization/Codec;)Lnet/minecraft/class_5142;"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "net/peanutgallery/dalquor/mixin/ExampleMixin": {
+        "loadWorld": "Lnet/minecraft/server/MinecraftServer;method_3735()V"
+      },
+      "net/peanutgallery/dalquor/mixin/FoliagePlacerTypeInvoker": {
+        "register": "method_28850(Ljava/lang/String;Lcom/mojang/serialization/Codec;)Lnet/minecraft/class_4648;"
+      },
+      "net/peanutgallery/dalquor/mixin/TrunkPlacerTypeInvoker": {
+        "register": "method_26995(Ljava/lang/String;Lcom/mojang/serialization/Codec;)Lnet/minecraft/class_5142;"
+      }
+    }
+  }
+}

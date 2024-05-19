@@ -1,0 +1,11 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "down": "dalquor:block/stripped_dreampalm_log_top",
+        "up": "dalquor:block/stripped_dreampalm_log_top",
+        "north": "dalquor:block/stripped_dreampalm_log",
+        "south": "dalquor:block/stripped_dreampalm_log",
+        "west": "dalquor:block/stripped_dreampalm_log",
+        "east": "dalquor:block/stripped_dreampalm_log"
+    }
+}

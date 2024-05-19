@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "dalquor",
+	"version": "1.0.0",
+	"name": "Dalquor",
+	"description": "This is a mod replicating what I think the Dal Quor realm from Eberron would be like in Minecraft.",
+	"authors": [
+		"PeanutGallery66"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/dalquor/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.peanutgallery.dalquor.Dalquor"
+		],
+		"fabric-datagen": [
+			"net.peanutgallery.dalquor.DalquorDataGenerator"
+		]
+	},
+	"mixins": [
+		"dalquor.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
